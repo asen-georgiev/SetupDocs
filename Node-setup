@@ -1,0 +1,30 @@
+Node js setup API
+
+installing node.js
+
+creating :
+a)index.js file in the main directory
+b).env file for sendgrid API key or whatever
+c).gitignore {
+.env
+/node_modules
+}
+
+1.Creating package.json file:
+npm init --yes
+
+2.Installing dependencies (node_modules appears)
+npm i express
+
+sudo npm i -g nodemon
+
+npm i winston
+
+3.For creating the server:
+a)In index.js file - const express = require("express")
+b)calling the function - const app = express();
+c)const port = process.env.PORT || 3900;
+const server = app.listen(port,()=> winston.info(`Listening on port ${port}`));
+module.exports = server;
+
+mongodb/mongoose/joi/joi-objectid/config/jsonwebtoken/lodash/multer/cors/bcrypt/

@@ -1,0 +1,97 @@
+Setting up React Native
+
+1.Check for Node version to be higher than 12
+
+2.npm i -g expo-cli  //check docs.expo.io/version/latest  for the components
+
+3.Install Expo Client on phone also.
+
+4.In the plugins Atom material icons.
+
+5.Download Android Studio code for the virtual Android device extract in /opt/.
+
+6.On a physical device run through Expo QR scanning code.
+
+Път към папката дето е инстлнат Андроид СДК я. по принцип е в Хоме
+7.[ -d "$HOME/Library/Android/sdk" ] && ANDROID_SDK=$HOME/Library/Android/sdk || ANDROID_SDK=$HOME/Android/Sdk
+echo "export ANDROID_SDK=$ANDROID_SDK" >> ~/`[[ $SHELL == *"zsh" ]] && echo '.zshenv' || echo '.bash_profile'`
+
+8.Дебъгинг римоут и в Пхп сторма в package.json put "type":"module".(NO!)
+
+9.Expo publishing през Метро бъндлъра.
+
+10.In app.json change orientation to : "default";//Code with mosh course example doesn't support landscape mode so we put to "portrait"
+
+11.npm install @react-native-community/hooks
+
+12.inside "" ctrl+space shows acceptable values.
+
+13.config folder: colors.js file.
+
+14.Creating different TEXT components if we want to reuse the code in different places but with the same parameters.
+
+15.For icons use import {whatever} from '@expo/vector-icons' directory.
+
+16.Друг вариант за един и същи компонент за различни платформи: виж Platfotm-specific Code lesson from part 1.
+
+17.npm i react-native-elements --save
+
+18.npm i --save react-native-vector-icons
+
+19.npm install react-native-paper 
+
+20.react-native link react-native-vector-icons
+
+21.npm i expo-constants (for detecting the statusBar) check lesson Lists No3 Extracting the Screen Component.
+
+22.expo install react-native-gesture-handler (Read the documentation for Gestures because they are many)!
+
+23.npm i formik - for form building and handling fields
+
+24.npm i yup - for form validation - alternative to joi but formik is integrated with yup
+
+25.expo install expo-image-picker
+
+26.expo install expo-permissions
+
+27.npm install @react-navigation/native
+
+28.expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+27.expo install expo-location
+
+28.Read about Drawer navigator and others in the documentation.
+
+29.npm i @react-navigation/stack
+
+30.For calling API - npi i apisauce
+
+31.react-native-debugger??
+
+32.lottiefiles.com
+
+33.npm i react-native-progress
+
+34.expo install @react-native-community/netinfo
+
+35.Read about navigation prop in the documentation. navigation prop is only available in our Screen components not their child Pt.2 Navigation - lesson 4.
+
+36.npm i @react-navigation/bottom-tabs
+
+37.expo install @react-native-async-storage/async-storage (it is like localStorage in React). restart the whole app after that!
+
+38.npm i moment. 
+
+39.npm i react-native-expo-image-cache
+
+40.expo install expo-blur  after that remove from any place where you use Image from react-native and replace with Image from react-native-expo-image-cache
+instead of source={} property it has uri={}
+
+41.Firebase read.
+
+42.npm i jwt-decode
+
+43.expo install expo-secure-store  - this is for storing token.
+
+44. expo install expo-app-loading  (error prop is mandatory!)
+

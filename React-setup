@@ -1,0 +1,48 @@
+Install mongodb
+sudo apt install mongodb-server
+
+Setting up REACTjs Frontend:
+
+if(!node.js === installed){
+sudo apt install nodejs
+}
+
+if not installed:
+npm i -g create-react-app
+
+Creating the app:
+create-react-app (app name)
+
+npm i bootstrap
+
+npm i react-bootstrap
+
+plugins: 
+1.Prettier
+2.React snippets
+
+npm i react-router-dom (for routes)
+
+<BrowseRouter> около <App/> компонента
+
+npm i joi-browser
+
+npm i axios
+
+if not installed (this is probably for node.js API check later):
+npm i mongodb
+sudo mkdir -p /data/db
+sudo chown -R `id -un` /data/db
+mongo db compass
+
+JWT
+npm i jsonwebtoken
+npm i jwt-decode
+
+change favicon.ico in index.html file
+change name and shortname in manifest.json
+
+import bootstrap in index.js!!!
+
+Heroku npm install -g heroku
+
