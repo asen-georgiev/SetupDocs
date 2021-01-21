@@ -1,5 +1,5 @@
 Install mongodb
-sudo apt install mongodb-server
+sudo npm install mongodb-server
 
 Setting up REACTjs Frontend:
 
@@ -46,3 +46,4 @@ import bootstrap in index.js!!!
 
 Heroku npm install -g heroku
 
+npm i prop-types

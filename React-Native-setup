@@ -3,6 +3,7 @@ Setting up React Native
 1.Check for Node version to be higher than 12
 
 2.npm i -g expo-cli  //check docs.expo.io/version/latest  for the components
+2.1 expo init (name of the project)
 
 3.Install Expo Client on phone also.
 
@@ -94,4 +95,7 @@ instead of source={} property it has uri={}
 43.expo install expo-secure-store  - this is for storing token.
 
 44. expo install expo-app-loading  (error prop is mandatory!)
+
+45.expo install expo-notifications   for notification token = from the terminal run => expo-login  and login with your expo account
+//See all the documentation expo-notifications because there are many deprecated methods.
 
