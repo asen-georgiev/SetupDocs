@@ -47,3 +47,7 @@ import bootstrap in index.js!!!
 Heroku npm install -g heroku
 
 npm i prop-types
+
+ sudo systemctl stop mongodb.service 
+ 
+ sudo systemctl disable mongodb.service
